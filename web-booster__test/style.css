@@ -1,0 +1,86 @@
+
+
+
+
+
+
+div{
+  background-image: url(bg.png);
+  background-repeat: repeat;
+  width: 660px;
+  height: 525px;
+  margin: auto;
+  position: absolute;
+
+  font-family: sans-serif;
+}
+div>ul {
+  background-color: red;
+  width: 170px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 5px;
+  border-top: 70px solid white;
+  border-bottom: 90px solid white;
+  border-left: 140px solid white;
+  border-right: 140px solid white;
+}
+div>ul>li>a{
+  background-color: green;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+div>ul>li:last-child>a{
+  color: black;
+}
+div>ul>li>ul {
+  background-color: yellow;
+  padding-left: 45px;
+}
+
+div>ul>li>ul>li>a {
+  background-color: rgba(129, 0, 127);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+div>ul>li>ul>li:last-child>a {
+  color: yellow;
+}
+div>ul>li>ul>li>ul {
+  background-color: red;
+  padding-left: 42px;
+}
+div>ul>li>ul>li>ul>li>a {
+  background-color: rgba(6, 0, 0);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+
+}
+div>ul>li>ul>li>ul>li:last-child>a{
+  color: yellow;
+}
+ol{
+  background-color: yellow;
+  padding-left: 42px;
+}
+ol li:nth-child(odd) a{
+  background-color: rgba(173, 217, 228);
+}
+ol li:nth-child(even) a{
+  background-color: rgba(0, 1, 252);
+}
+ol li a {
+  color: rgba(254, 197, 116);
+  padding: 0px 10px 0px 10px ;
+
+}
+ol li:last-child a{
+  color: rgba(253, 222, 255);
+}
+li {
+  line-height: 17px;
+}
